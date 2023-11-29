@@ -1,0 +1,1 @@
+prisma_db_password: pscale_pw_TsgvSDXeU7XZsDwwq07pbPfFnBr9YvQHvgD4uku2Hyt

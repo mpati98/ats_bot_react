@@ -1,0 +1,17 @@
+datasource db {
+  provider     = "mysql"
+  url          = env("DATABASE_URL")
+  relationMode = "prisma"
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Message{
+  id String @id @default(uuid())
+  question String
+  answer String
+
+  created_at DateTime @default(now())
+}
